@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Graph::IsCyclicHelper(int, bool*) const:CycleDetection.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "edges[node]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

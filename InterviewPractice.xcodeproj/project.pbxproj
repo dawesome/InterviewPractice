@@ -13,6 +13,9 @@
 		2704A7E91DFF4630009A932F /* LFU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2704A7E71DFF4630009A932F /* LFU.cpp */; };
 		2704A7EA1DFF4630009A932F /* LFU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2704A7E71DFF4630009A932F /* LFU.cpp */; };
 		2704A7EC1DFF46C0009A932F /* LFUTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2704A7EB1DFF46C0009A932F /* LFUTest.cpp */; };
+		27294E6A1E0178D4000733C5 /* CycleDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27294E681E0178D4000733C5 /* CycleDetection.cpp */; };
+		27294E6B1E0178D4000733C5 /* CycleDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27294E681E0178D4000733C5 /* CycleDetection.cpp */; };
+		27294E6E1E017CCA000733C5 /* GraphCycleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27294E6C1E017CCA000733C5 /* GraphCycleTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +49,9 @@
 		2704A7E71DFF4630009A932F /* LFU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LFU.cpp; sourceTree = "<group>"; };
 		2704A7E81DFF4630009A932F /* LFU.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LFU.hpp; sourceTree = "<group>"; };
 		2704A7EB1DFF46C0009A932F /* LFUTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LFUTest.cpp; path = ../InterviewPractice/LFUTest.cpp; sourceTree = "<group>"; };
+		27294E681E0178D4000733C5 /* CycleDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CycleDetection.cpp; sourceTree = "<group>"; };
+		27294E691E0178D4000733C5 /* CycleDetection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CycleDetection.hpp; sourceTree = "<group>"; };
+		27294E6C1E017CCA000733C5 /* GraphCycleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphCycleTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,8 @@
 				2704A7CC1DFF2C5D009A932F /* main.cpp */,
 				2704A7E71DFF4630009A932F /* LFU.cpp */,
 				2704A7E81DFF4630009A932F /* LFU.hpp */,
+				27294E681E0178D4000733C5 /* CycleDetection.cpp */,
+				27294E691E0178D4000733C5 /* CycleDetection.hpp */,
 			);
 			path = InterviewPractice;
 			sourceTree = "<group>";
@@ -101,6 +109,7 @@
 			children = (
 				2704A7D11DFF325F009A932F /* TestMain.cpp */,
 				2704A7EB1DFF46C0009A932F /* LFUTest.cpp */,
+				27294E6C1E017CCA000733C5 /* GraphCycleTest.cpp */,
 			);
 			path = TestInterviewPractice;
 			sourceTree = "<group>";
@@ -194,6 +203,7 @@
 			files = (
 				2704A7CD1DFF2C5D009A932F /* main.cpp in Sources */,
 				2704A7E91DFF4630009A932F /* LFU.cpp in Sources */,
+				27294E6A1E0178D4000733C5 /* CycleDetection.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2704A7DF1DFF32AF009A932F /* TestMain.cpp in Sources */,
+				27294E6E1E017CCA000733C5 /* GraphCycleTest.cpp in Sources */,
 				2704A7EC1DFF46C0009A932F /* LFUTest.cpp in Sources */,
+				27294E6B1E0178D4000733C5 /* CycleDetection.cpp in Sources */,
 				2704A7EA1DFF4630009A932F /* LFU.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +443,7 @@
 				2704A7D01DFF2C5D009A932F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2704A7DC1DFF32AA009A932F /* Build configuration list for PBXNativeTarget "TestInterviewPractice" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +452,7 @@
 				2704A7DE1DFF32AA009A932F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
