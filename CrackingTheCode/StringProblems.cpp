@@ -15,6 +15,8 @@
 
 #include "gtest/gtest.h"
 
+#include "Recursion.hpp"
+
 std::string Compress(std::string input)
 {
     int count = 0;
@@ -130,6 +132,11 @@ TEST(URLifyTests, Attempt2Test) {
 
 int main(int argc, char * argv[]) {
     ::testing::InitGoogleTest(&argc, argv);
+    
+    auto stringList = AddPerms("abc");
+    for (auto i = stringList.begin(); i != stringList.end(); ++i) {
+        std::cout << *i << std::endl;
+    }
     
     RUN_ALL_TESTS();
     std::cout << "aaabcccccddd compressed = " << Compress("aaabcccccddd") << "\n";
